@@ -1,0 +1,145 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 561407 */
+  src: url('https://at.alicdn.com/t/font_561407_z8efh9slsm2w3ik9.eot');
+  src: url('https://at.alicdn.com/t/font_561407_z8efh9slsm2w3ik9.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_561407_z8efh9slsm2w3ik9.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_561407_z8efh9slsm2w3ik9.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_561407_z8efh9slsm2w3ik9.svg#iconfont') format('svg');
+}
+header{
+	width: 100%;
+	height: 0.98rem;
+	border-bottom: 0.02rem solid #cccccc;
+}
+header h1{
+	font-size: 0.32rem;
+	line-height: 0.98rem;
+	padding-left: 0.26rem;
+	color: #5a5a5a;
+}
+#content{
+	position: absolute;
+	top: 0.98rem;
+	bottom: 1.09rem;
+	width: 100%;
+	overflow-y: scroll;
+}
+#content::-webkit-scrollbar{
+	display: none;
+}
+.content_line{
+	width: 100%;
+	height: 0.26rem;
+	border-bottom: 0.02rem solid #e0e0e0;
+	background-color: #f0f0f0;
+}
+.content_item{
+	width: 100%;
+	height: 0.99rem;
+	border-bottom: 0.02rem solid #e7e7e7;
+	/*background-color: red;*/
+}
+.content_item_wenzi{
+	float: left;
+	font-size: 0.28rem;
+	padding-left: 0.26rem;
+	line-height: 0.99rem;
+}
+.content_item_tubiao{
+	float: right;
+	margin-right: 0.25rem;
+	font-family: 'iconfont';
+	font-size: 0.55rem;	
+	line-height: 0.99rem;
+}
+.content_item_tubiao1{
+	font-size: 0.2rem;
+	color: #616161;
+}
+.content_item_tubiao2{
+	font-size: 0.24rem;
+	color: #9a9a9a;
+}
+.content_item1{
+	border-bottom: none;
+}
+.content_item_tubiao3{
+	font-size: 0.29rem;
+	color: #9e9e9e;
+}
+.content_line1{
+	width: 100%;
+	height: 0.19rem;
+	background-color: #f0f0f0;
+}
+.bottom {
+    width: 100%;
+    height: 1.07rem;
+    border-top: 0.02rem solid #d5d5d5;
+    background-color: #f5f5f5;
+    position: fixed;
+    display: flex;
+    flex-wrap: nowrap;
+    bottom: 0;
+}
+.bottom ul li {
+    height: 0.71rem;
+    float: left;
+    margin-left: 1.41rem;
+}
+.bottom ul li:hover h1,.bottom ul li:hover a{
+	color: #36b9af;
+}
+.bottom ul li h1 {
+    font-family: 'iconfont';
+    color: #7e7d7e;
+    font-size: 0.43rem;
+    text-align: center;
+    padding-top: 0.15rem;
+}
+.bottom ul li a {
+	display: block;
+    font-size: 0.24rem;
+    color: #6b6a6b;
+}
+.bottom ul .item1{
+	margin-left: 0.69rem;
+}
+.tuangou{
+	width: 100%;
+	height: 0.86rem;
+	margin: 0 auto;
+	font-size: 0.24rem;
+	color: #32b9aa;
+	line-height: 0.86rem;
+	text-align: center;
+}
+.fengexian{
+	width: 100%;
+	height: 0.22rem;
+	border-bottom: 0.01rem solid #d8d8d8;
+	background-color: #f0f0f0;
+}
+.info{
+	width: 100%;
+	height: 1.37rem;
+	/*background-color: red;*/
+}
+.info_wenzi{
+	margin-top: 0.4rem;
+	font-size: 0.27rem;
+	text-align: center;
+}
+.info_wenzi1{
+	margin-top: 0;
+}
+.wenzi{
+	width: 7.3rem;
+	height: 1rem;
+	background-color: #32b9aa;
+	font-size: 0.26rem;
+	color: #fff;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 1rem;
+}

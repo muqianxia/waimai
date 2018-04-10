@@ -1,0 +1,333 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 561407 */
+  src: url('https://at.alicdn.com/t/font_561407_9cp53ylln4p9zfr.eot');
+  src: url('https://at.alicdn.com/t/font_561407_9cp53ylln4p9zfr.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_561407_9cp53ylln4p9zfr.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_561407_9cp53ylln4p9zfr.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_561407_9cp53ylln4p9zfr.svg#iconfont') format('svg');
+}
+header{
+	/*position: relative;*/
+	width: 100%;
+	height: 0.98rem;
+	background: #06c1ae;
+	color: #fff;
+	padding: 0 0.24rem;
+}
+a{
+	color: #000;
+}
+.head_location{
+	font-size: 0.28rem;
+	float: left;
+	line-height: 0.98rem;
+}
+.head_location i{
+	font-family: 'iconfont';
+	font-size: 0.12rem;
+	margin-left: 0.07rem;
+}
+.search{
+	margin-top: 0.13rem;
+	float: left;
+	width: 4.32rem;
+	height: 0.68rem;	
+	font-size: 0.24rem;
+	color: #9ad1cb;
+	background: #0f9184;
+	border-radius: 0.34rem;
+	outline: none;
+	border: 0;
+	padding-left: 0.65rem;
+	margin-left: 0.24rem;
+}
+.search_tubiao{
+	position: absolute;
+	left: 1.63rem;
+	top: 0.33rem;
+	float: left;
+	font-family: 'iconfont';
+	font-size: 0.29rem;
+}
+.search_tubiao1{
+	float: left;
+	font-family: 'iconfont';
+	font-size: 0.4rem;
+	line-height: 0.98rem;
+	margin-left: 0.27rem;
+}
+.search_tubiao2{
+	margin-left: 0.45rem;
+}
+.content{
+	width: 100%;
+	position: absolute;
+	top: 0.98rem;
+	bottom: 1.09rem;
+	overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+}
+.content::-webkit-scrollbar,.classify ul::-webkit-scrollbar{
+	display: none;
+}
+.banner{
+	margin-top: 0;
+	width: 100%;
+	height: 1.87rem;
+}
+.classify ul{
+	display: flex;
+	white-space: nowrap;
+	overflow-x: scroll;
+}
+.classify{
+	width: 100%;
+	height: 3.77rem;
+	/*background-color: #ff6700;*/
+}
+.classify_fenlei{
+	width: 7.5rem;
+	height: 3.06rem;
+	margin:0 auto;
+	/*background: red;*/
+	padding-top: 0.2rem;
+}
+.classify_meishi{
+	float: left;
+	/*width: 1.755rem;*/
+	width: 1.875rem;
+	height: 1.35rem;
+	/*background-color: green;*/
+}
+.classify_meishi_circle{
+	font-size: 0.42rem;
+	margin: 0 auto;
+	line-height: 0.7rem;
+	font-family: 'iconfont';
+	width: 0.78rem;
+	height: 0.78rem;
+	background-color: #ff9f22;
+	border-radius: 0.82rem;
+	border: 0.02rem solid #f6932a;
+	color: #fff;
+	text-align: center;
+}
+.classify_meishi_circle1{
+	background-color: #ff6566;
+	border: 0.02rem solid #ff6566;
+}
+.classify_meishi_circle2{
+	background-color: #7f4be6;
+	border: 0.02rem solid #7f4be6;
+}
+.classify_meishi_circle3{
+	background-color: #fed030;
+	border: 0.02rem solid #fed030;
+}
+.classify_meishi_circle4{
+	background-color: #ff9f22;
+	border: 0.02rem solid #ff9f22;
+}
+.classify_meishi_circle5{
+	background-color: #4ec7ef;
+	border: 0.02rem solid #4ec7ef;
+}
+.classify_meishi_circle6{
+	background-color: #e644e6;
+	border: 0.02rem solid #e644e6;
+}
+.classify_meishi_circle7{
+	background-color: #4ec7ef;
+	border: 0.02rem solid #4ec7ef;
+}
+.classify_meishi_wenzi{
+	display: block;
+	font-size: 0.23rem;
+	margin-top: 0.15rem;
+	text-align: center;
+}
+.classify_meishi1{
+	margin-top: 0.3rem;
+}
+.classify_dot{
+	width: 7.02rem;
+	height: 0.15rem;
+	margin: 0.2rem auto 0.1rem;
+	/*background-color: pink;	*/
+}
+.classify_dot1{
+	float: left;
+	width: 0.15rem;
+	height: 0.15rem;
+	border-radius: 0.15rem;
+	background-color: #ededed;
+	margin-left: 3.28rem;
+}
+.classify_dot2{
+	margin-left: 0.17rem;
+}
+.line{
+	width: 100%;
+	height: 0.16rem;
+	border-top: 0.02rem solid #d8d8d8;
+	border-bottom: 0.02rem solid #d8d8d8;
+	background-color: #f0f0f0;
+}
+.favorite{
+	width: 100%;
+	height: auto;
+}
+.favorite_top{
+	width: 100%;
+	height: 0.83rem;
+	border-bottom: 0.02rem solid #dadada;
+	/*background-color: red;*/
+}
+.favorite_top_wenzi{
+	font-size: 0.27rem;
+	float: left;
+	line-height: 0.83rem;
+	margin-left: 0.76rem;
+}
+.favorite_top_wenzi i{
+	font-family: 'iconfont'; 
+	color: #ff604c;
+	margin-right: 0.11rem;
+}
+.favorite_item{
+	width: 100%;
+	height: 2.41rem;
+	padding: 0.25rem 0.24rem 0.3rem;
+	/*background-color: yellow;*/
+	border-bottom: 0.02rem solid #e1e1e1;
+}
+.favorite_item_tu{
+	float: left;
+	width: 2.18rem;
+	height: 1.92rem;
+}
+.favorite_item_wenzi_box{
+	position: relative;
+	float: left;
+	margin-left: 0.24rem;
+	width: 4.6rem;
+	height: 1.92rem;
+	/*background-color: red;*/
+}
+.favorite_item_title{
+	float: left;
+	font-size: 0.31rem;
+	line-height: 0.49rem;
+}
+.favorite_item_juli{
+	position: absolute;
+	float: left;
+	font-size: 0.21rem;
+	color: #acacac;
+	right: 0;
+	line-height: 0.49rem;
+}
+.favorite_item_desc{
+	float: left;
+	margin-left: 0.08rem;
+	line-height: 0.46rem;
+	font-size: 0.28rem;
+	color: #989898;
+}
+.favorite_item_price{
+	line-height: 0.5rem;
+	float: left;
+	font-size: 0.39rem;
+	color: #2cb7a7;
+}
+.favorite_item_price i{
+	font-size: 0.24rem;
+}
+.favorite_item_menshi_price{
+	float: left;
+	font-size: 0.24rem;
+	margin-left: 0.21rem;
+	color: #9b9b9b;
+	line-height: 0.5rem;
+}
+.favorite_item_quantity{
+	float: right;
+	font-size: 0.25rem;
+	color: #9c9c9c;
+	line-height: 0.5rem;
+}
+.bottom {
+    width: 100%;
+    height: 1.07rem;
+    border-top: 0.02rem solid #d5d5d5;
+    background-color: #f5f5f5;
+    position: fixed;
+    display: flex;
+    flex-wrap: nowrap;
+    bottom: 0;
+}
+.bottom ul li {
+    height: 0.71rem;
+    float: left;
+    margin-left: 1.41rem;
+}
+.bottom ul li:hover h1,.bottom ul li:hover a{
+	color: #36b9af;
+}
+.bottom ul li h1 {
+    font-family: 'iconfont';
+    color: #7e7d7e;
+    font-size: 0.43rem;
+    text-align: center;
+    padding-top: 0.15rem;
+}
+.bottom ul li a {
+	display: block;
+    font-size: 0.24rem;
+    color: #6b6a6b;
+}
+.bottom ul .item1{
+	margin-left: 0.69rem;
+}
+.tuangou{
+	width: 100%;
+	height: 0.86rem;
+	font-size: 0.24rem;
+	color: #32b9aa;
+	line-height: 0.86rem;
+	text-align: center;
+}
+.fengexian{
+	width: 100%;
+	height: 0.22rem;
+	border-bottom: 0.01rem solid #d8d8d8;
+	background-color: #f0f0f0;
+}
+.info{
+	width: 100%;
+	height: 1.37rem;
+	/*background-color: red;*/
+}
+.info_wenzi{
+	margin-top: 0.4rem;
+	font-size: 0.27rem;
+	text-align: center;
+}
+.info_wenzi1{
+	margin-top: 0;
+}
+.wenzi{
+	width: 7.3rem;
+	height: 1rem;
+	background-color: #32b9aa;
+	font-size: 0.26rem;
+	color: #fff;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 1rem;
+}
+.kongbai{
+	width: 100%;
+	height: 0.35rem;
+}

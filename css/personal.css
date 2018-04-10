@@ -1,0 +1,318 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 561407 */
+  src: url('https://at.alicdn.com/t/font_561407_0i3jk5bz1ev1jor.eot');
+  src: url('https://at.alicdn.com/t/font_561407_0i3jk5bz1ev1jor.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_561407_0i3jk5bz1ev1jor.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_561407_0i3jk5bz1ev1jor.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_561407_0i3jk5bz1ev1jor.svg#iconfont') format('svg');
+}
+a{
+	color: #000;
+}
+body{
+	background-color: #f0f0f0;
+}
+header{
+	padding: 0 0.24rem;
+	width: 100%;
+	height: 0.98rem;
+	background-color: #f9f9f9;
+}
+.head_wenzi{
+	float: left;
+	font-size: 0.32rem;
+	color: #515151;
+	line-height: 0.98rem;
+}
+.head_tubiao{
+	float: left;
+	font-family: 'iconfont'; 
+	font-size: 0.45rem;
+	line-height: 0.98rem;
+	margin-left: 4.7rem;
+}
+.head_tubiao1{
+	margin-left: 0.69rem;
+}
+#content{
+	width: 100%;
+	position: absolute;
+	top: 0.98rem;
+	bottom: 1.09rem;
+}
+.login_box{
+	width: 7.5rem;
+	height: 3.27rem;
+	background :linear-gradient(#01c1b1,#249c8f);
+	opacity: 0.6;
+}
+.login{
+	width: 7.2rem;
+	margin: 0 auto;
+	height: 2.22rem;
+	padding-top: 0.49rem;
+	/*background-color: red;*/
+}
+.login_touxiang{
+	font-family: 'iconfont';
+	font-size: 1.14rem;	
+	float: left;
+}
+.login_wenzi{
+	float: left;
+	font-size: 0.31rem;
+	color: #fff;
+	line-height: 1.14rem;
+	margin-left: 0.26rem;
+}
+.login_jiantou{
+	float: left;
+	font-family: 'iconfont'; 
+	font-size: 0.2rem;
+	color: #fff;
+	margin-left: 3.75rem;
+	line-height: 1.14rem;
+}
+.cover{
+	width: 100%;
+	height: 1.05rem;
+	background: #000;
+    opacity: 0.5;
+}
+.cover_item{
+	float: left;
+	width: 2.5rem;
+	height: 1.05rem;
+	/*background-color: #ff6700;*/
+	font-size: 0.29rem;
+	color: #fff;	
+	line-height: 1.05rem;
+	text-align: center;
+	border-right: 0.01rem solid #1fbeab;
+}
+.cover_item1{
+	border: none;
+}
+.order_box{
+	margin-top: 0.25rem;
+	width: 7.5rem;
+	height: 2.52rem;
+	border-top: 0.02rem solid #e0e0e0;
+	border-bottom: 0.02rem solid #e0e0e0;
+	background-color: #fff;
+}
+.order_top{
+	position: relative;
+	width: 7.02rem;
+	height: 1.01rem;
+	padding-top: 0.22rem;
+	/*background-color: red;*/
+	margin: 0 auto;
+}
+.order_top_circle{
+	float: left;
+	color: #fff;
+	text-align: center;
+	font-family: 'iconfont';
+	font-size: 0.26rem;
+	width: 0.51rem;
+	height: 0.51rem;
+	border-radius: 0.53rem;
+	background-color: #ffb45c;
+	border: 0.02rem solid #ffaf51;
+	line-height: 0.55rem;
+}
+.order_top_myorder{
+	float: left;
+	font-size: 0.29rem;
+	margin-left: 0.26rem;
+	line-height: 0.55rem;
+}
+.order_top_all{
+	position: absolute;
+	right: 0.01rem;
+	float: left;
+	font-size: 0.25rem;
+	color: #9a9a9a;
+	line-height: 0.55rem;
+}
+.order_top_all i{
+	font-family: 'iconfont'; 
+	font-size: 0.2rem;
+	margin-left: 0.18rem;
+	float: right;
+}
+.order_bottom{
+	width: 7.5rem;
+	height: 1.51rem;
+	border-top: 0.02rem solid #e6e6e6;
+	/*background-color: green;*/
+}
+.order_bottom_item{
+	float: left;
+	width: 1.875rem;
+	height: 1.51rem;
+	padding-top: 0.38rem;
+	/*background-color: pink;*/
+}
+.order_bottom_item a{
+	display: block;
+	text-align: center;
+	color: #8c8c8c;
+}
+.order_bottom_item_tubiao{
+	font-family: 'iconfont'; 
+	font-size: 0.37rem;	
+	font-weight: bold;
+}
+.order_bottom_item_wenzi{
+	margin-top: 0.18rem;
+	font-size: 0.23rem;
+}
+.wallet_box{
+	width: 100%;
+	height: 2rem;
+	border-top: 0.02rem solid #e2e2e2;
+	border-bottom: 0.02rem solid #e2e2e2;
+	background-color: #fff;
+	margin-top: 0.24rem;
+}
+.wallet_item{
+	padding-top: 0.22rem;
+	width: 7.02rem;
+	height: 0.99rem;
+	margin: 0 auto;
+	/*background-color: yellow;*/
+}
+.wallet_item_tubiao{
+	float: left;
+	color: #fff;
+	text-align: center;
+	font-family: 'iconfont';
+	font-size: 0.26rem;
+	width: 0.51rem;
+	height: 0.51rem;
+	border-radius: 0.53rem;
+	background-color: #48d3f6;
+	border: 0.02rem solid #3cd0f5;
+	line-height: 0.55rem; 
+}
+.wallet_item_wenzi{
+	float: left;
+	font-size: 0.3rem;
+	margin-left: 0.26rem;
+	line-height: 0.55rem; 
+}
+.wallet_line{
+	float: right;
+	width: 6.46rem;
+	border-bottom: 0.02rem solid #e4e4e4;
+}
+.wallet_item_jiantou{
+	font-size: 0.2rem;
+	font-family: 'iconfont';
+	float: right;
+	color: #717171;
+	line-height: 0.55rem; 
+}
+.wallet_item_tubiao1{
+	background-color: #ff8793;
+	border-color: #ff838f;
+}
+.wallet_item1{
+	width: 100%;
+	margin-top: 0.24rem;
+	padding-left: 0.24rem;
+	padding-right: 0.24rem;
+	border-top: 0.02rem solid #e2e2e2;
+	border-bottom: 0.02rem solid #e2e2e2;
+	background-color: #fff;
+}
+.join{
+	position: relative;
+	margin-top: 0.24rem;
+	width: 100%;
+	background-color: #fff;
+	padding-left: 0.24rem;
+	/*padding-right: 0.24rem;*/
+}
+.order_top_circle1{
+	background-color: #92d564;
+	border-color: #b1e18f;
+}
+.join_wenzi{
+	position: absolute;
+	right: 0.25rem;
+}
+.bottom {
+    width: 100%;
+    height: 1.07rem;
+    border-top: 2px solid #d5d5d5;
+    background-color: #f5f5f5;
+    position: fixed;
+    /*display: flex;
+    flex-wrap: nowrap;*/
+    bottom: 0;
+}
+.bottom ul li {
+    height: 0.71rem;
+    float: left;
+    margin-left: 1.41rem;
+}
+.bottom ul li:hover h1,.bottom ul li:hover a{
+	color: #36b9af;
+}
+.bottom ul li h1 {
+    font-family: 'iconfont';
+    color: #7e7d7e;
+    font-size: 0.43rem;
+    text-align: center;
+    padding-top: 0.15rem;
+}
+.bottom ul li a {
+	display: block;
+    font-size: 0.24rem;
+    color: #6b6a6b;
+}
+.bottom ul .item1{
+	margin-left: 0.69rem;
+}
+.tuangou{
+	width: 100%;
+	height: 0.86rem;
+	margin: 0 auto;
+	font-size: 0.24rem;
+	color: #32b9aa;
+	line-height: 0.86rem;
+	text-align: center;
+}
+.fengexian{
+	width: 100%;
+	height: 0.22rem;
+	border-bottom: 0.01rem solid #d8d8d8;
+	background-color: #f0f0f0;
+}
+.info{
+	width: 100%;
+	height: 1.37rem;
+	background-color: red;
+}
+.info_wenzi{
+	margin-top: 0.4rem;
+	font-size: 0.27rem;
+	text-align: center;
+}
+.info_wenzi1{
+	margin-top: 0;
+}
+.wenzi{
+	width: 7.3rem;
+	height: 1rem;
+	background-color: #32b9aa;
+	font-size: 0.26rem;
+	color: #fff;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 1rem;
+}
+

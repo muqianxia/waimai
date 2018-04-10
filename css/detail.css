@@ -1,0 +1,507 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 561407 */
+  src: url('https://at.alicdn.com/t/font_561407_k7bgtysj79hn0zfr.eot');
+  src: url('https://at.alicdn.com/t/font_561407_k7bgtysj79hn0zfr.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_561407_k7bgtysj79hn0zfr.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_561407_k7bgtysj79hn0zfr.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_561407_k7bgtysj79hn0zfr.svg#iconfont') format('svg');
+}
+body{
+	background-color: #f0f0f0;
+}
+header{
+	position: relative;
+	width: 100%;
+	height: 3.55rem;
+	background-image: url(../img/detail_datu.jpg);
+	background-size: 100% auto;
+}
+.head{
+	position: fixed;
+	width: 7.02rem;
+	height: 0.98rem;
+	margin: 0 auto;
+	/*background-color: #ff6700;*/
+	line-height: 0.98rem;
+}
+.head_back{
+	float: left;
+	font-size: 0.47rem;
+	color: #fff;
+	font-family: 'iconfont';
+	padding-left: 0.32rem;
+}
+.head_share{
+	float: right;
+	margin-right: 0.55rem;
+}
+.head_shoucang{
+	float: right;
+}
+.quantity{
+	position: absolute;
+	bottom: 0.26rem;
+	right: 0;
+	width: 1.25rem;
+	height: 0.62rem;
+	background-color: black;
+	opacity: 0.6;
+	border-radius: 0.12rem;
+	text-align: center;
+	line-height: 0.62rem;
+	font-size: 0.23rem;
+	color: #fff;
+}
+#content{
+	position: absolute;
+    top: 3.55rem;
+    overflow-y: scroll;
+    display: flex;
+    flex-wrap: wrap;
+	width: 100%;
+}
+#content::-webkit-scrollbar{
+	display: none;
+}
+.content_info{
+	width: 100%;
+	height: 2.84rem;
+	background-color: #fff;
+}
+.content_info_desc{
+	width: 100%;
+	height: 1.35rem;
+	padding-left: 0.26rem;
+	padding-top: 0.31rem;
+	padding-bottom: 0.31rem;
+	/*background-color: yellow;*/
+}
+.content_info_desc_title{
+	font-size: 0.34rem;
+}
+.content_info_desc_pingfen{
+	float: left;
+	font-family: 'iconfont';
+	font-size: 0.28rem;
+	color: #ff9d09;
+}
+.content_info_desc_pingfen1{
+	margin-left: 0.24rem;
+	float: left;
+	font-size: 0.23rem;
+	color: #ff9d09;
+}
+.content_info_desc_pingfen1 i{
+	font-size: 0.2rem;
+}
+.content_info_weizhi{	
+	position: relative;
+	width: 100%;
+	height: 1.49rem;
+	padding-left: 0.24rem;
+	border-top: 0.02rem solid #dedede;
+	border-bottom: 0.02rem solid #dedede;
+	/*background-color: green;*/
+}
+.content_info_weizhi_tubiao{
+	padding-top: 0.47rem;
+	float: left;
+	font-family: 'iconfont';
+	font-size: 0.4rem;
+	color: #989898;
+}
+.content_info_weizhi p{
+	margin-right: 1.49rem;
+	margin-left: 0.51rem;
+	padding-top: 0.31rem;
+	font-size: 0.29rem;
+}
+.content_info_weizhi_line{
+	position: absolute;
+	right: 1.25rem;
+	top: 0.31rem;
+	width: 0.02rem;
+	height: 0.63rem;
+	background-color: #dddddd;
+}
+.content_info_weizhi_tubiao1{
+	position: absolute;
+	right: 0.2rem;
+	top: 0.5rem;
+	font-family: 'iconfont';
+	font-size: 0.4rem;
+	color: #3fcfc1;
+}
+.content_tuangou{
+	background-color: #fff;
+	width: 7.5rem;
+	height: 6.84rem;
+	margin-top: 0.25rem;
+	border-top: 0.02rem solid #dddddd;
+	border-bottom: 0.02rem solid #dddddd;
+}
+.content_tuangou_title{
+	width: 100%;
+	height: 0.92rem;
+	border-bottom: 0.02rem solid #dddddd;
+	line-height: 0.96rem;
+}
+.content_item_tuan {
+    float: left;
+    margin-top: 0.32rem;
+    width: 0.32rem;
+    height: 0.32rem;
+    background-color: #ff9900;
+    color: #fff;
+    font-size: 0.21rem;
+    line-height: 0.3rem;
+    text-align: center;
+    margin-left: 0.3rem;
+}
+.content_tuangou_title_wenzi{
+	float: left;
+	font-size: 0.29rem;
+	margin-left: 0.33rem;
+	color: #a3a3a3;
+	line-height: 0.96rem;
+}
+.content_tuangou_item{
+	position: relative;
+	width: 7.5rem;
+	height: 1.64rem;
+	/*background-color: red;*/
+	border-bottom: 0.02rem solid #dddddd;
+}
+.content_tuangou_item_tu{
+	position: absolute;
+	top: 0.2rem;
+	left: 0.24rem;
+	width: 1.44rem;
+	height: 1.24rem;
+}
+.content_tuangou_item_desc{
+	position: absolute;
+	right: 0.24rem;
+	width: 5.4rem;
+	height: 1.64rem;
+	/*background-color: pink;*/
+	margin-left: 0.2rem;
+}
+.content_tuangou_item_desc h1{
+	font-size: 0.27rem;
+	padding-top: 0.27rem;
+}
+.content_tuangou_item_desc_info{
+	width: 100%;
+	height: 0.32rem;
+	margin-top: 0.32rem;
+}
+.favorite_item_price {
+    float: left;
+    font-size: 0.39rem;
+    color: #2cb7a7;
+    line-height: 0.3rem;
+}
+.favorite_item_price i {
+    font-size: 0.24rem;
+}
+.favorite_item_menshi_price {
+    float: left;
+    font-size: 0.24rem;
+    margin-left: 0.21rem;
+    color: #9b9b9b;
+}
+.favorite_item_quantity {
+    float: right;
+    margin-left: 0.8rem;
+    font-size: 0.25rem;
+    color: #9c9c9c;
+}
+.content_tuangou_more{
+	width: 100%;
+	height: 0.93rem;
+	font-size: 0.26rem;
+	color: #51c3b7;
+	text-align: center;
+	line-height: 0.95rem;
+}
+.content_tuangou_more span{
+	font-family: 'iconfont';
+	font-size: 0.14rem;
+	margin-left: 0.18rem;
+}
+.content_pingjia{
+	width: 100%;
+	height: 6.37rem;
+	border-top: 0.02rem solid #dddddd;
+	border-bottom: 0.02rem solid #dddddd;
+	margin-top: 0.24rem;
+	background-color: #fff;
+}
+.content_pingjia_jianyao{
+	width: 7.02rem;
+	height: 0.92rem;
+	margin: 0 auto;
+	/*background-color: red;*/
+	line-height: 0.92rem;
+}
+.content_pingjia_jianyao_tubiao{
+	float: left;
+    font-family: 'iconfont';
+    font-size: 0.28rem;
+    color: #ff9d09;
+}
+.content_pingjia_jianyao_pingfen{
+	margin-left: 0.24rem;
+    float: left;
+    font-size: 0.23rem;
+    color: #ff9d09;
+}
+.content_pingjia_bijiao{
+	float: left;
+	margin-left: 0.45rem;
+	font-size: 0.22rem;
+	color: #a0a0a0;
+}
+.content_pingjia_xiangxi{
+	float: left;
+	width: 100%;
+	height: auto;
+	height: 0.24rem;
+	/*background-color: pink;*/
+	border-top: 0.02rem solid #dddddd;
+	/*border-bottom: 0.02rem solid #dddddd;*/
+}
+.content_pingjia_xiangxi_top{
+	padding-top: 0.33rem;
+	padding-left: 0.24rem; 
+}
+.content_pingjia_xiangxi_top_touxiang{
+	float: left;
+	width: 0.85rem;
+	height: 0.85rem;
+	border-radius: 0.85rem;
+	background-size: cover;
+	background-image: url('../img/pingjiaren.jpg');
+}
+.content_pingjia_xiangxi_top_wenzi{
+	margin-left: 0.19rem;
+	float: left;
+	width: 5.95rem;
+	height: 0.85rem;
+}
+.content_pingjia_xiangxi_top_wenzi1{
+	font-size: 0.23rem;
+	float: left;
+}
+.content_pingjia_xiangxi_top_wenzi_dengji{
+	float: left;
+	margin-left: 0.2rem;
+	width: 0.36rem;
+	height: 0.36rem;
+	border-radius: 0.05rem;
+	background-color: #fbe700;
+	color: #fff;
+	font-size: 0.2rem;
+	font-family: 'iconfont'; 
+	line-height: 0.36rem;
+	text-align: center;
+}
+.content_pingjia_xiangxi_top_wenzi_time{
+	/*float: left;*/
+    font-family: 'iconfont';
+    font-size: 0.28rem;
+    color: #ff9d09;
+}
+.content_pingjia_xiangxi_top_wenzi_time{
+	margin-top: 0.4rem;
+}
+.content_pingjia_xiangxi_top_wenzi_time i{
+	margin-left: 0.22rem;
+	color: #b0b0b0;
+	font-size: 0.22rem;
+}
+.content_pingjia_xiangxi_neirong{
+	width: 7.02rem;
+	height: auto;
+	/*background-color: green;*/
+	margin: 0 auto;
+}
+.content_pingjia_xiangxi_neirong p{
+	font-size: 0.26rem;
+}
+.content_pingjia_xiangxi_bottom{
+	width: 100%;
+	height: 0.98rem;
+	line-height: 0.98rem;
+	font-size: 0.25rem;
+	color: #9f9f9f;
+	padding-left: 0.24rem;
+}
+.content_pingjia_xiangxi_more{
+	position: relative;
+	padding-left: 0.24rem;
+	width: 100%;
+	height: 0.94rem;
+	border-top: 0.02rem solid #dddddd;
+	font-size: 0.27rem;
+	line-height: 0.96rem;
+	color: #32b9aa;
+}
+.content_pingjia_xiangxi_more span{
+	position: absolute;
+	right: 0.24rem;
+	font-family: 'iconfont'; 
+	font-size: 0.22rem;
+	color: #73716c;
+}
+.content_service{
+	width: 100%;
+	height: 2.75rem;
+	border-top: 0.02rem solid #dddddd;
+	/*border-bottom: 0.02rem solid #dddddd;*/
+	background-color: #fff;
+	margin-top: 0.24rem;
+}
+.content_service_item{
+	padding-left: 0.24rem;
+	width: 100%;
+	height: 0.92rem;
+	border-bottom: 0.02rem solid #dddddd;
+	font-size: 0.27rem;
+	line-height: 0.94rem;
+	color: #949494;
+}
+.content_service_item1{
+	position: relative;
+	color: #000;
+}
+.content_service_item1 span{
+	position: absolute;
+	right: 0.24rem;
+	font-family: 'iconfont'; 
+	font-size: 0.22rem;
+	color: #73716c;
+}
+.content_xianguan{
+	width: 100%;
+	background-color: #fff;
+}
+.content_xianguan_title{
+	padding-left: 0.24rem;
+	width: 100%;
+	height: 0.92rem;
+	border-bottom: 0.02rem solid #dddddd;
+	font-size: 0.27rem;
+	line-height: 0.94rem;
+	color: #949494;	
+}
+.content_xianguan_item{
+	width: 100%;
+	height: 2.41rem;
+	padding: 0.25rem 0.24rem 0.3rem;
+	/*background-color: yellow;*/
+	border-bottom: 0.02rem solid #e1e1e1;
+}
+.content_xianguan_item_tu{
+	float: left;
+	width: 2.18rem;
+	height: 1.92rem;
+}
+.content_xianguan_item_wenzi_box{
+	position: relative;
+	float: left;
+	margin-left: 0.24rem;
+	width: 4.6rem;
+	height: 1.92rem;
+	/*background-color: red;*/
+}
+.content_xianguan_item_title{
+	float: left;
+	font-size: 0.31rem;
+	line-height: 0.49rem;
+}
+.content_xianguan_item_juli{
+	position: absolute;
+	float: left;
+	font-size: 0.21rem;
+	color: #acacac;
+	right: 0;
+	line-height: 0.49rem;
+}
+.content_xianguan_item_desc{
+	float: left;
+	margin-left: 0.08rem;
+	line-height: 0.46rem;
+	font-size: 0.28rem;
+	color: #989898;
+}
+.content_xianguan_item_price{
+	line-height: 0.5rem;
+	float: left;
+	font-size: 0.36rem;
+	color: #2cb7a7;
+}
+.content_xianguan_item_price i{
+	font-size: 0.24rem;
+}
+.content_xianguan_item_menshi_price{
+	float: left;
+	font-size: 0.22rem;
+	margin-left: 0.2rem;
+	color: #9b9b9b;
+	line-height: 0.5rem;
+}
+.content_xianguan_item_pingfen{
+	float: right;
+	font-size: 0.25rem;
+	color: #9c9c9c;
+	line-height: 0.5rem;
+}
+.content_shangjia{
+	width: 100%;
+	height: auto;
+	margin-top: 0.26rem;
+	background-color: #fff;
+}
+.content_shangjia_title{
+	float: left;
+	width: 100%;
+	padding-left: 0.24rem;
+	height: 0.93rem;
+	line-height: 0.93rem;
+	font-size: 0.29rem;
+	background-color: red;
+}
+.content_shangjia_title span{
+	float: right;
+	padding-right: 0.24rem;
+	color: #d5d5d5;
+}
+.content_shangjia_item{
+	float: left;
+	width: 100%;
+	height: 2.42rem;
+	background-color: #ff6700;
+	border-top: 0.02rem solid #e1e1e1;
+}
+.content_shangjia_item_tu{
+	float: left;
+	padding-left: 0.24rem;
+	margin-top: 0.24rem;
+	width: 2.19rem;
+	height: 1.93rem;
+}
+.content_shangjia_item_wenzi{
+	float: left;
+	width: 5.32rem;
+	height: 100%;
+	/*background-color: green;*/
+	margin-left: 0.17rem;  
+}
+.content_shangjia_item_title{
+	float: left;
+	font-size: 0.31rem;
+	padding-top: 0.4rem;
+}
+
